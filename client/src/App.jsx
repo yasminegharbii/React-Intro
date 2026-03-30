@@ -1,14 +1,10 @@
+import GroceryList from "./GroceryList";
+
 const App = () => (
-  <div>Good luck &#128515; </div>
+  <div>
+    <h1>My Grocery List</h1>
+    <GroceryList />
+  </div>
 );
 
-
-
-
-
-
-
-
-
-
-export default App
+export default App;
